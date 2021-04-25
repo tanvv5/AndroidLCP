@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".activity.LienheActivity"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        app:title="Sửa thông tin"
+        android:id="@+id/toolbareditdienthoai"
+        app:titleTextColor="#efe6e4"
+        android:background="#ec5631"
+        android:layout_height="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/StyledTilEditTextTheme"
+        android:id="@+id/TexteditIddienthoai"/>
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/TexteditTendienthoai"
+        android:layout_height="wrap_content" />
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:id="@+id/TexteditGiadienthoai"
+        android:layout_height="wrap_content" />
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:id="@+id/TexteditMotadienthoai"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btTimtdienthoai"
+        android:text="Tìm điện thoại"
+        android:textColor="#fd0404"
+        android:textSize="20dp"
+        android:layout_height="50dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btCapnhatdienthoai"
+        android:text="Cập nhât"
+        android:textColor="#fd0404"
+        android:textSize="20dp"
+        android:layout_height="50dp" />
+
+
+</LinearLayout>
